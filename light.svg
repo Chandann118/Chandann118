@@ -1,0 +1,467 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 610" width="1180" height="610" role="img" aria-label="Chanda kumar Yadav - Developer Profile Banner">
+  <defs>
+    <!-- Gradients -->
+    <linearGradient id="bg-grad-light" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F8FAFC"/>
+      <stop offset="50%" stop-color="#EEF6FF"/>
+      <stop offset="100%" stop-color="#F1F5F9"/>
+    </linearGradient>
+
+    <linearGradient id="border-grad-light" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284C7" stop-opacity="0.75"/>
+      <stop offset="45%" stop-color="#6366F1" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#CBD5E1" stop-opacity="0.3"/>
+    </linearGradient>
+
+    <linearGradient id="ascii-grad-light" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A"/>
+      <stop offset="45%" stop-color="#1E293B"/>
+      <stop offset="100%" stop-color="#2563EB"/>
+    </linearGradient>
+
+    <linearGradient id="scanline-light" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0284C7" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#0284C7" stop-opacity="0.75"/>
+      <stop offset="100%" stop-color="#0284C7" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="accent-text-light" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0284C7"/>
+      <stop offset="100%" stop-color="#4F46E5"/>
+    </linearGradient>
+
+    <!-- Grid Pattern -->
+    <pattern id="grid-light" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#CBD5E1" stroke-width="0.8" stroke-opacity="0.45"/>
+    </pattern>
+
+    <!-- Ambient Glow Filters -->
+    <radialGradient id="glow-left-light" cx="15%" cy="15%" r="45%">
+      <stop offset="0%" stop-color="#0284C7" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#0284C7" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="glow-right-light" cx="85%" cy="20%" r="50%">
+      <stop offset="0%" stop-color="#4F46E5" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#4F46E5" stop-opacity="0"/>
+    </radialGradient>
+
+    <clipPath id="rounded-frame">
+      <rect x="10" y="10" width="1160" height="590" rx="20" ry="20"/>
+    </clipPath>
+    
+    <clipPath id="portrait-clip">
+      <rect x="42" y="98" width="382" height="348" rx="10" ry="10"/>
+    </clipPath>
+  </defs>
+
+  <style>
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace; }
+    .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+    .ascii-text { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace; font-size: 6.85px; font-weight: 600; letter-spacing: 0.25px; }
+  </style>
+
+  <!-- Frame & Background -->
+  <g clip-path="url(#rounded-frame)">
+    <rect x="10" y="10" width="1160" height="590" rx="20" fill="url(#bg-grad-light)" stroke="#CBD5E1" stroke-width="1.5"/>
+    <rect x="10" y="10" width="1160" height="590" fill="url(#grid-light)"/>
+    <circle cx="180" cy="160" r="320" fill="url(#glow-left-light)"/>
+    <circle cx="980" cy="180" r="350" fill="url(#glow-right-light)"/>
+
+    <!-- Ambient Floating Particles (SMIL) -->
+    <circle cx="220" cy="80" r="1.8" fill="#0284C7" opacity="0.6">
+      <animate attributeName="cy" values="80;70;80" dur="5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.3;0.8;0.3" dur="5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="640" cy="50" r="1.5" fill="#4F46E5" opacity="0.5">
+      <animate attributeName="cy" values="50;60;50" dur="6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.2;0.7;0.2" dur="6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1060" cy="90" r="1.6" fill="#059669" opacity="0.5">
+      <animate attributeName="cy" values="90;82;90" dur="7s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.3;0.8;0.3" dur="7s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- Top Navigation Chrome -->
+    <g id="header-chrome">
+      <!-- Traffic Light Controls -->
+      <circle cx="36" cy="35" r="5.5" fill="#EF4444"/>
+      <circle cx="54" cy="35" r="5.5" fill="#F59E0B"/>
+      <circle cx="72" cy="35" r="5.5" fill="#10B981"/>
+
+      <!-- Prompt Host -->
+      <text x="100" y="39" class="mono" font-size="12" font-weight="600" fill="#475569">
+        chandann118<tspan fill="#0284C7">@terminal</tspan><tspan fill="#64748B">:~#</tspan> profile --inspect
+      </text>
+
+      <!-- Center Title Tag -->
+      <text x="590" y="39" class="mono" font-size="11" font-weight="600" text-anchor="middle" fill="#64748B" letter-spacing="1.5px">
+        CHANDA KUMAR YADAV // DEVELOPER IDENTITY MATRIX
+      </text>
+
+      <!-- Right Telemetry Badges -->
+      <g transform="translate(880, 23)">
+        <!-- Live Beacon -->
+        <rect x="0" y="0" width="86" height="24" rx="12" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="1"/>
+        <circle cx="14" cy="12" r="4" fill="#059669">
+          <animate attributeName="r" values="3.5;5;3.5" dur="2s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values="1;0.4;1" dur="2s" repeatCount="indefinite"/>
+        </circle>
+        <text x="26" y="16" class="mono" font-size="9.5" font-weight="700" fill="#0F172A">ONLINE</text>
+
+        <!-- Degree Badge -->
+        <rect x="94" y="0" width="88" height="24" rx="6" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="1"/>
+        <text x="138" y="16" class="mono" font-size="9.5" font-weight="600" text-anchor="middle" fill="#0284C7">B.TECH CS</text>
+
+        <!-- Framework Badge -->
+        <rect x="190" y="0" width="88" height="24" rx="6" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="1"/>
+        <text x="234" y="16" class="mono" font-size="9.5" font-weight="600" text-anchor="middle" fill="#059669">SPRING BOOT</text>
+      </g>
+
+      <!-- Divider line below chrome -->
+      <line x1="10" y1="55" x2="1170" y2="55" stroke="#CBD5E1" stroke-width="1" opacity="0.7"/>
+    </g>
+
+    <!-- ==================== LEFT COLUMN: VISUAL IDENTITY ==================== -->
+    <g id="left-panel">
+      <!-- Left Card Container -->
+      <rect x="26" y="68" width="414" height="514" rx="14" fill="#FFFFFF" fill-opacity="0.92" stroke="url(#border-grad-light)" stroke-width="1.2"/>
+
+      <!-- Left Header -->
+      <text x="44" y="89" class="mono" font-size="11" font-weight="700" fill="#0284C7" letter-spacing="1.2px">// VISUAL.MAP</text>
+      <text x="165" y="89" class="mono" font-size="10" fill="#64748B">ASCII_SCAN: 70x42 MATRIX</text>
+      <rect x="350" y="78" width="74" height="18" rx="4" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="1"/>
+      <text x="387" y="90.5" class="mono" font-size="8.5" font-weight="700" text-anchor="middle" fill="#059669">RENDERED</text>
+
+      <!-- Inner ASCII Box -->
+      <g clip-path="url(#portrait-clip)">
+        <rect x="42" y="98" width="382" height="348" rx="10" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1"/>
+
+        <!-- Subtle Inner Grid Lines -->
+        <line x1="42" y1="185" x2="424" y2="185" stroke="#CBD5E1" stroke-width="0.5" stroke-opacity="0.3" stroke-dasharray="4 4"/>
+        <line x1="42" y1="272" x2="424" y2="272" stroke="#CBD5E1" stroke-width="0.5" stroke-opacity="0.3" stroke-dasharray="4 4"/>
+        <line x1="42" y1="359" x2="424" y2="359" stroke="#CBD5E1" stroke-width="0.5" stroke-opacity="0.3" stroke-dasharray="4 4"/>
+        <line x1="169" y1="98" x2="169" y2="446" stroke="#CBD5E1" stroke-width="0.5" stroke-opacity="0.3" stroke-dasharray="4 4"/>
+        <line x1="296" y1="98" x2="296" y2="446" stroke="#CBD5E1" stroke-width="0.5" stroke-opacity="0.3" stroke-dasharray="4 4"/>
+
+        <!-- Floating Portrait Container -->
+        <g id="ascii-portrait-group">
+          <animateTransform attributeName="transform" type="translate" values="0,0; 0,-2.5; 0,0" dur="7s" repeatCount="indefinite"/>
+          <text class="ascii-text" fill="url(#ascii-grad-light)" xml:space="preserve">
+          <tspan x="78" y="117.00" opacity="0">                                   +++++=+++                          <animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="0.000s" fill="freeze"/></tspan>
+          <tspan x="78" y="124.70" opacity="0">                            **-=+********+==--.                       <animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="0.025s" fill="freeze"/></tspan>
+          <tspan x="78" y="132.40" opacity="0">                        *==********#*****#@****=:                     <animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="0.050s" fill="freeze"/></tspan>
+          <tspan x="78" y="140.10" opacity="0">                     ********%***##+#*#*****@****+*                   <animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="0.075s" fill="freeze"/></tspan>
+          <tspan x="78" y="147.80" opacity="0">                   *+******###*##+**%%*******@**@*+                   <animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="0.100s" fill="freeze"/></tspan>
+          <tspan x="78" y="155.50" opacity="0">                  *****%%****#**++***********%%*#*+                   <animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="0.125s" fill="freeze"/></tspan>
+          <tspan x="78" y="163.20" opacity="0">                 =**#***=++*****+**==+++************                  <animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="0.150s" fill="freeze"/></tspan>
+          <tspan x="78" y="170.90" opacity="0">                 ****%+*=-==+++====++==---+**********.                <animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="0.175s" fill="freeze"/></tspan>
+          <tspan x="78" y="178.60" opacity="0">                -*%***++=---+**+==-:.::::::=+=*******-                <animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="0.200s" fill="freeze"/></tspan>
+          <tspan x="78" y="186.30" opacity="0">                -*#**+=----::.............::==+++******               <animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="0.225s" fill="freeze"/></tspan>
+          <tspan x="78" y="194.00" opacity="0">                +***+*-.::....................-==+****=               <animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="0.250s" fill="freeze"/></tspan>
+          <tspan x="78" y="201.70" opacity="0">                :***+=+*#**+*+=::...--+++++==-:--=****                <animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="0.275s" fill="freeze"/></tspan>
+          <tspan x="78" y="209.40" opacity="0">                 =***++++++**=-:-..::-=++=---+**+=****                <animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="0.300s" fill="freeze"/></tspan>
+          <tspan x="78" y="217.10" opacity="0">                 **%=**++*%*++---..::-=+=+=++**=+=+*-                 <animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="0.325s" fill="freeze"/></tspan>
+          <tspan x="78" y="224.80" opacity="0">                  +*-=#===+=+*=-::::--=+==++*%+=-#**                  <animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="0.350s" fill="freeze"/></tspan>
+          <tspan x="78" y="232.50" opacity="0">                 ===::-+===-+:==-:::-=:+-=-=*---:**=*                 <animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="0.375s" fill="freeze"/></tspan>
+          <tspan x="78" y="240.20" opacity="0">                 .=-:-=+=-=-::--:::::-::-=-=+-:.:+*+.                 <animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="0.400s" fill="freeze"/></tspan>
+          <tspan x="78" y="247.90" opacity="0">                  --::......:-::::..::-:......:.:=+=-                 <animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="0.425s" fill="freeze"/></tspan>
+          <tspan x="78" y="255.60" opacity="0">                 +=--::::...::--:.::::........::===--.                <animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="0.450s" fill="freeze"/></tspan>
+          <tspan x="78" y="263.30" opacity="0">                 +:*=:::::..:::::--:::.:.....:::+*=.=                 <animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="0.475s" fill="freeze"/></tspan>
+          <tspan x="78" y="271.00" opacity="0">                 .*==-:::::-=:--:::-=:--:...:::-++:-.                 <animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="0.500s" fill="freeze"/></tspan>
+          <tspan x="78" y="278.70" opacity="0">                  -*+--:::::==----------::.:.:===*+:                  <animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="0.525s" fill="freeze"/></tspan>
+          <tspan x="78" y="286.40" opacity="0">                   +.+=-::::------------:::::-=*-=                    <animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="0.550s" fill="freeze"/></tspan>
+          <tspan x="78" y="294.10" opacity="0">                    *-+=-::---::----:::-::.:=+*:*                     <animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="0.575s" fill="freeze"/></tspan>
+          <tspan x="78" y="301.80" opacity="0">                    .*:+-+-:::::-==:.::..:-==*-*:                     <animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="0.600s" fill="freeze"/></tspan>
+          <tspan x="78" y="309.50" opacity="0">                     .*-+=+*+-::====---=++==**-++                     <animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="0.625s" fill="freeze"/></tspan>
+          <tspan x="78" y="317.20" opacity="0">                       *-***=-====-=---==+++++=+**:                   <animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="0.650s" fill="freeze"/></tspan>
+          <tspan x="78" y="324.90" opacity="0">                       *:+*=+++=====+**+=-====+**-*+.                 <animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="0.675s" fill="freeze"/></tspan>
+          <tspan x="78" y="332.60" opacity="0">                     .+*=-++*==------=+*+=-=--*+***-*=:.              <animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="0.700s" fill="freeze"/></tspan>
+          <tspan x="78" y="340.30" opacity="0">                 :=***+*=+-=-----:--::----=--==+****-******           <animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="0.725s" fill="freeze"/></tspan>
+          <tspan x="78" y="348.00" opacity="0">            .-+***+--+***-==-=-:::::----=----+=++++*****+=:+*         <animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="0.750s" fill="freeze"/></tspan>
+          <tspan x="78" y="355.70" opacity="0">            **:-+******++--==-=-:::---==----==+++++++++*******+=:=**  <animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="0.775s" fill="freeze"/></tspan>
+          <tspan x="78" y="363.40" opacity="0">       *+:-+***********==----==-=---=--:----====+++=+++++************%<animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="0.800s" fill="freeze"/></tspan>
+          <tspan x="78" y="371.10" opacity="0">+-:-=*******+##+*++++++==-----==---=--:-==-=-=+++++=+======++++******%<animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="0.825s" fill="freeze"/></tspan>
+          <tspan x="78" y="378.80" opacity="0">%******+***+++*+++=++*===:-*+=-=+---:::#*=+======================+=++#<animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="0.850s" fill="freeze"/></tspan>
+          <tspan x="78" y="386.50" opacity="0">##*++++=======+++++=-=+===%+**::::---=##**+--+---=============---====*<animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="0.875s" fill="freeze"/></tspan>
+          <tspan x="78" y="394.20" opacity="0">*++=====+=====+======++==-***#+==+=====**=*----=+===+=====--====---==*<animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="0.900s" fill="freeze"/></tspan>
+          <tspan x="78" y="401.90" opacity="0">#=+===================+=-==***+=====+*****-=--=---==========--=---=--*<animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="0.925s" fill="freeze"/></tspan>
+          <tspan x="78" y="409.60" opacity="0">#+==-===++===========+++--#=*****+++**+#:=-==--=---==-===------------*<animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="0.950s" fill="freeze"/></tspan>
+          <tspan x="78" y="417.30" opacity="0">#+=======++=--==--=-===+:--#=*#**+*+*+#=-+-==----------=------------=*<animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="0.975s" fill="freeze"/></tspan>
+          <tspan x="78" y="425.00" opacity="0">#============-=====-====-=--#=***+#*+*=:-+===---------==-----------=-*<animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="1.000s" fill="freeze"/></tspan>
+          <tspan x="78" y="432.70" opacity="0">##*******#*#*********##++*#*+=%#####++****#*************************#%<animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="1.025s" fill="freeze"/></tspan>
+          </text>
+        </g>
+
+        <!-- Horizontal Laser Scanline (SMIL) -->
+        <line x1="42" y1="98" x2="424" y2="98" stroke="url(#scanline-light)" stroke-width="2">
+          <animate attributeName="y1" values="98;446;98" dur="6s" repeatCount="indefinite"/>
+          <animate attributeName="y2" values="98;446;98" dur="6s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values="0.3;0.8;0.3" dur="6s" repeatCount="indefinite"/>
+        </line>
+
+        <!-- HUD Corner Brackets -->
+        <path d="M 48 112 L 48 104 L 56 104" fill="none" stroke="#0284C7" stroke-width="1.8" opacity="0.8"/>
+        <path d="M 418 112 L 418 104 L 410 104" fill="none" stroke="#0284C7" stroke-width="1.8" opacity="0.8"/>
+        <path d="M 48 432 L 48 440 L 56 440" fill="none" stroke="#0284C7" stroke-width="1.8" opacity="0.8"/>
+        <path d="M 418 432 L 418 440 L 410 440" fill="none" stroke="#0284C7" stroke-width="1.8" opacity="0.8"/>
+      </g>
+
+      <!-- Bottom Identity Area in Left Panel -->
+      <g transform="translate(44, 460)">
+        <line x1="0" y1="0" x2="378" y2="0" stroke="#CBD5E1" stroke-width="1" opacity="0.7"/>
+
+        <!-- Command Prompt Line -->
+        <text x="0" y="18" class="mono" font-size="11" fill="#64748B">
+          <tspan fill="#0284C7">chandann118@dev</tspan>:~$ whoami
+        </text>
+
+        <!-- Large Name -->
+        <text x="0" y="43" class="sans" font-size="20" font-weight="800" fill="#0F172A" letter-spacing="-0.4px">
+          Chanda kumar Yadav
+        </text>
+
+        <!-- Dynamic Rotating Role (SMIL) -->
+        <g transform="translate(0, 65)">
+          <text class="mono" font-size="12" font-weight="600">
+            <tspan fill="#0284C7" opacity="1">
+              Student · B.Tech Undergrad
+              <animate attributeName="opacity" values="1;1;0;0;0;0;1" dur="9s" repeatCount="indefinite"/>
+            </tspan>
+            <tspan x="0" y="0" fill="#059669" opacity="0">
+              Backend Developer · Spring Boot
+              <animate attributeName="opacity" values="0;0;1;1;0;0;0" dur="9s" repeatCount="indefinite"/>
+            </tspan>
+            <tspan x="0" y="0" fill="#4F46E5" opacity="0">
+              Problem Solver · LeetCode DSA
+              <animate attributeName="opacity" values="0;0;0;0;1;1;0" dur="9s" repeatCount="indefinite"/>
+            </tspan>
+            <tspan fill="#0284C7">_
+              <animate attributeName="opacity" values="1;0;1" dur="0.9s" repeatCount="indefinite"/>
+            </tspan>
+          </text>
+        </g>
+
+        <!-- Subtext Status Badges -->
+        <g transform="translate(0, 88)">
+          <rect x="0" y="0" width="145" height="22" rx="5" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="1"/>
+          <circle cx="10" cy="11" r="3" fill="#059669"/>
+          <text x="19" y="14.5" class="mono" font-size="9" font-weight="600" fill="#475569">JVM Backends</text>
+
+          <rect x="153" y="0" width="155" height="22" rx="5" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="1"/>
+          <circle cx="163" cy="11" r="3" fill="#0284C7"/>
+          <text x="172" y="14.5" class="mono" font-size="9" font-weight="600" fill="#475569">DSA &amp; Problem Solving</text>
+        </g>
+      </g>
+    </g>
+
+    <!-- ==================== RIGHT COLUMN: SYSTEM INFO ==================== -->
+    <g id="right-panel">
+      <!-- Right Card Container -->
+      <rect x="454" y="68" width="700" height="514" rx="14" fill="#FFFFFF" fill-opacity="0.92" stroke="url(#border-grad-light)" stroke-width="1.2"/>
+
+      <!-- Right Header -->
+      <text x="474" y="89" class="mono" font-size="11" font-weight="700" fill="#0284C7" letter-spacing="1.2px">// SYSTEM.INFO</text>
+      <text x="595" y="89" class="mono" font-size="10" fill="#64748B">./profile.sh --fetch-all</text>
+      <rect x="1066" y="78" width="68" height="18" rx="4" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="1"/>
+      <text x="1100" y="90.5" class="mono" font-size="8.5" font-weight="700" text-anchor="middle" fill="#0284C7">STATUS: OK</text>
+
+      <line x1="454" y1="102" x2="1154" y2="102" stroke="#CBD5E1" stroke-width="1" opacity="0.6"/>
+
+      <!-- SECTION 1: SYSTEM ATTRIBUTES (TABLE) -->
+      <g id="profile-table" transform="translate(474, 108)">
+        <!-- Table rows with alternating zebra strips -->
+        <!-- Row 1: NAME -->
+        <rect x="0" y="2" width="660" height="20" rx="4" fill="#F1F5F9" fill-opacity="0.85"/>
+        <text x="10" y="16" class="mono" font-size="10" font-weight="700" fill="#0284C7">&gt; IDENTIFIER  :</text>
+        <text x="145" y="16" class="mono" font-size="11" font-weight="700" fill="#0F172A">Chanda kumar Yadav</text>
+        <text x="540" y="16" class="mono" font-size="9" fill="#64748B">[VERIFIED PROFILE]</text>
+
+        <!-- Row 2: HEADLINE -->
+        <text x="10" y="37" class="mono" font-size="10" font-weight="700" fill="#0284C7">&gt; HEADLINE    :</text>
+        <text x="145" y="37" class="mono" font-size="11" font-weight="600" fill="#475569">Student // B.Tech Undergrad</text>
+        <text x="540" y="37" class="mono" font-size="9" fill="#4F46E5">[ACADEMICS]</text>
+
+        <!-- Row 3: BACKEND -->
+        <rect x="0" y="44" width="660" height="20" rx="4" fill="#F1F5F9" fill-opacity="0.85"/>
+        <text x="10" y="58" class="mono" font-size="10" font-weight="700" fill="#0284C7">&gt; BACKEND TECH:</text>
+        <text x="145" y="58" class="mono" font-size="11" font-weight="700" fill="#059669">Spring Boot</text>
+        <text x="245" y="58" class="mono" font-size="10.5" fill="#475569">· Java Enterprise Architecture</text>
+        <text x="540" y="58" class="mono" font-size="9" fill="#059669">[SPECIALIZATION]</text>
+
+        <!-- Row 4: LEETCODE -->
+        <text x="10" y="79" class="mono" font-size="10" font-weight="700" fill="#0284C7">&gt; LEETCODE    :</text>
+        <text x="145" y="79" class="mono" font-size="11" font-weight="600" fill="#0F172A">Chandann118</text>
+        <text x="245" y="79" class="mono" font-size="10.5" fill="#475569">· Data Structures &amp; Algorithms</text>
+        <text x="540" y="79" class="mono" font-size="9" fill="#D97706">[PROBLEM SOLVING]</text>
+
+        <!-- Row 5: EDUCATION -->
+        <rect x="0" y="86" width="660" height="20" rx="4" fill="#F1F5F9" fill-opacity="0.85"/>
+        <text x="10" y="100" class="mono" font-size="10" font-weight="700" fill="#0284C7">&gt; EDUCATION   :</text>
+        <text x="145" y="100" class="mono" font-size="11" font-weight="600" fill="#0F172A">B.Tech</text>
+        <text x="205" y="100" class="mono" font-size="10.5" fill="#475569">· Bachelor of Technology</text>
+        <text x="540" y="100" class="mono" font-size="9" fill="#0284C7">[UNDERGRAD]</text>
+
+        <!-- Row 6: GITHUB -->
+        <text x="10" y="121" class="mono" font-size="10" font-weight="700" fill="#0284C7">&gt; REPOSITORY  :</text>
+        <text x="145" y="121" class="mono" font-size="11" font-weight="600" fill="#0F172A">github.com/Chandann118/Chandann118</text>
+        <text x="540" y="121" class="mono" font-size="9" fill="#4F46E5">[MAIN REPO]</text>
+
+        <!-- Row 7: CONTACT -->
+        <rect x="0" y="128" width="660" height="20" rx="4" fill="#F1F5F9" fill-opacity="0.85"/>
+        <text x="10" y="142" class="mono" font-size="10" font-weight="700" fill="#0284C7">&gt; CONTACT     :</text>
+        <text x="145" y="142" class="mono" font-size="11" font-weight="600" fill="#0F172A">chandnn188@gmail.com</text>
+        <text x="540" y="142" class="mono" font-size="9" fill="#059669">[OPEN TO CONNECT]</text>
+      </g>
+
+      <line x1="474" y1="266" x2="1134" y2="266" stroke="#CBD5E1" stroke-width="1" opacity="0.6"/>
+
+      <!-- SECTION 2: TECH STACK PILLS -->
+      <g id="tech-stack" transform="translate(474, 276)">
+        <text x="0" y="13" class="mono" font-size="10.5" font-weight="700" fill="#0284C7" letter-spacing="1px">
+          // CORE TECHNICAL FOCUS &amp; DISCIPLINES
+        </text>
+
+        <g transform="translate(0, 24)">
+          <!-- Pill 1: Spring Boot -->
+          <g transform="translate(0, 0)">
+            <rect x="0" y="0" width="130" height="28" rx="6" fill="#F1F5F9" stroke="#059669" stroke-width="1.2"/>
+            <circle cx="14" cy="14" r="3.5" fill="#059669"/>
+            <text x="25" y="18" class="mono" font-size="10.5" font-weight="700" fill="#0F172A">Spring Boot</text>
+          </g>
+
+          <!-- Pill 2: Java -->
+          <g transform="translate(140, 0)">
+            <rect x="0" y="0" width="100" height="28" rx="6" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="1"/>
+            <circle cx="14" cy="14" r="3.5" fill="#0284C7"/>
+            <text x="25" y="18" class="mono" font-size="10.5" font-weight="600" fill="#0F172A">Java Core</text>
+          </g>
+
+          <!-- Pill 3: DSA -->
+          <g transform="translate(250, 0)">
+            <rect x="0" y="0" width="160" height="28" rx="6" fill="#F1F5F9" stroke="#D97706" stroke-width="1.2"/>
+            <circle cx="14" cy="14" r="3.5" fill="#D97706"/>
+            <text x="25" y="18" class="mono" font-size="10.5" font-weight="700" fill="#0F172A">Data Structures</text>
+          </g>
+
+          <!-- Pill 4: LeetCode -->
+          <g transform="translate(420, 0)">
+            <rect x="0" y="0" width="125" height="28" rx="6" fill="#F1F5F9" stroke="#D97706" stroke-width="1"/>
+            <circle cx="14" cy="14" r="3.5" fill="#D97706"/>
+            <text x="25" y="18" class="mono" font-size="10.5" font-weight="600" fill="#0F172A">LeetCode</text>
+          </g>
+
+          <!-- Pill 5: REST APIs -->
+          <g transform="translate(555, 0)">
+            <rect x="0" y="0" width="105" height="28" rx="6" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="1"/>
+            <circle cx="14" cy="14" r="3.5" fill="#4F46E5"/>
+            <text x="25" y="18" class="mono" font-size="10.5" font-weight="600" fill="#0F172A">REST APIs</text>
+          </g>
+
+          <!-- Row 2 Pills -->
+          <g transform="translate(0, 36)">
+            <!-- Pill 6: Backend Systems -->
+            <rect x="0" y="0" width="155" height="26" rx="6" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="1"/>
+            <circle cx="14" cy="13" r="3" fill="#0284C7"/>
+            <text x="25" y="16.5" class="mono" font-size="10" font-weight="600" fill="#475569">Backend Systems</text>
+
+            <!-- Pill 7: Algorithms -->
+            <rect x="165" y="0" width="155" height="26" rx="6" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="1"/>
+            <circle cx="179" cy="13" r="3" fill="#4F46E5"/>
+            <text x="190" y="16.5" class="mono" font-size="10" font-weight="600" fill="#475569">Algorithm Design</text>
+
+            <!-- Pill 8: Git & GitHub -->
+            <rect x="330" y="0" width="140" height="26" rx="6" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="1"/>
+            <circle cx="344" cy="13" r="3" fill="#059669"/>
+            <text x="355" y="16.5" class="mono" font-size="10" font-weight="600" fill="#475569">Git &amp; GitHub</text>
+
+            <!-- Pill 9: Engineering -->
+            <rect x="480" y="0" width="180" height="26" rx="6" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="1"/>
+            <circle cx="494" cy="13" r="3" fill="#0284C7"/>
+            <text x="505" y="16.5" class="mono" font-size="10" font-weight="600" fill="#475569">Computer Science B.Tech</text>
+          </g>
+        </g>
+      </g>
+
+      <line x1="474" y1="375" x2="1134" y2="375" stroke="#CBD5E1" stroke-width="1" opacity="0.6"/>
+
+      <!-- SECTION 3: ENGINEERING TELEMETRY CARDS -->
+      <g id="telemetry-cards" transform="translate(474, 386)">
+        <!-- Card 1: Backend Architecture -->
+        <g transform="translate(0, 0)">
+          <rect x="0" y="0" width="212" height="66" rx="8" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+          <text x="14" y="19" class="mono" font-size="9" font-weight="700" fill="#059669" letter-spacing="0.5px">CORE SPECIALTY</text>
+          <text x="14" y="39" class="sans" font-size="15" font-weight="700" fill="#0F172A">Spring Boot</text>
+          <text x="14" y="54" class="mono" font-size="9.5" fill="#64748B">JVM Backend &amp; Services</text>
+        </g>
+
+        <!-- Card 2: LeetCode & Algorithms -->
+        <g transform="translate(224, 0)">
+          <rect x="0" y="0" width="212" height="66" rx="8" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+          <text x="14" y="19" class="mono" font-size="9" font-weight="700" fill="#D97706" letter-spacing="0.5px">PROBLEM SOLVING</text>
+          <text x="14" y="39" class="sans" font-size="15" font-weight="700" fill="#0F172A">LeetCode Profile</text>
+          <text x="14" y="54" class="mono" font-size="9.5" fill="#64748B">u/Chandann118</text>
+        </g>
+
+        <!-- Card 3: Academic Path -->
+        <g transform="translate(448, 0)">
+          <rect x="0" y="0" width="212" height="66" rx="8" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+          <text x="14" y="19" class="mono" font-size="9" font-weight="700" fill="#0284C7" letter-spacing="0.5px">ACADEMIC STATUS</text>
+          <text x="14" y="39" class="sans" font-size="15" font-weight="700" fill="#0F172A">B.Tech Student</text>
+          <text x="14" y="54" class="mono" font-size="9.5" fill="#64748B">Bachelor of Technology</text>
+        </g>
+      </g>
+
+      <line x1="474" y1="462" x2="1134" y2="462" stroke="#CBD5E1" stroke-width="1" opacity="0.6"/>
+
+      <!-- SECTION 4: DIRECT LINKS & TERMINAL EXECUTION -->
+      <g id="connect-links" transform="translate(474, 472)">
+        <text x="0" y="13" class="mono" font-size="10.5" font-weight="700" fill="#0284C7" letter-spacing="1px">
+          // ACTIVE CHANNELS &amp; REPOSITORIES
+        </text>
+
+        <!-- 4 Badges in a Row -->
+        <g transform="translate(0, 22)">
+          <!-- GitHub Link Pill -->
+          <g transform="translate(0, 0)">
+            <rect x="0" y="0" width="155" height="28" rx="6" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="1"/>
+            <text x="12" y="18" class="mono" font-size="10" font-weight="700" fill="#0284C7">GitHub</text>
+            <text x="58" y="18" class="mono" font-size="9.5" fill="#475569">Chandann118</text>
+          </g>
+
+          <!-- LinkedIn Link Pill -->
+          <g transform="translate(165, 0)">
+            <rect x="0" y="0" width="160" height="28" rx="6" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="1"/>
+            <text x="12" y="18" class="mono" font-size="10" font-weight="700" fill="#4F46E5">LinkedIn</text>
+            <text x="68" y="18" class="mono" font-size="9.5" fill="#475569">in/chandann118</text>
+          </g>
+
+          <!-- LeetCode Link Pill -->
+          <g transform="translate(335, 0)">
+            <rect x="0" y="0" width="160" height="28" rx="6" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="1"/>
+            <text x="12" y="18" class="mono" font-size="10" font-weight="700" fill="#D97706">LeetCode</text>
+            <text x="72" y="18" class="mono" font-size="9.5" fill="#475569">Chandann118</text>
+          </g>
+
+          <!-- Email Link Pill -->
+          <g transform="translate(505, 0)">
+            <rect x="0" y="0" width="155" height="28" rx="6" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="1"/>
+            <text x="12" y="18" class="mono" font-size="10" font-weight="700" fill="#059669">Email</text>
+            <text x="50" y="18" class="mono" font-size="9" fill="#475569">chandnn188</text>
+          </g>
+        </g>
+
+        <!-- Bottom Bash Execution Bar -->
+        <g transform="translate(0, 64)">
+          <rect x="0" y="0" width="660" height="26" rx="5" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1"/>
+          <text x="12" y="17" class="mono" font-size="10.5" fill="#64748B">
+            <tspan fill="#0284C7">chandann118@server</tspan>:~$ echo &quot;Developing robust Spring Boot backends &amp; solving algorithms.&quot;
+            <tspan fill="#059669">_
+              <animate attributeName="opacity" values="1;0;1" dur="0.8s" repeatCount="indefinite"/>
+            </tspan>
+          </text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
