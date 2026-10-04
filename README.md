@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./light.svg" alt="Chanda kumar Yadav — Developer Profile Banner" width="100%">
+<img src="./light.svg" alt="Chandan Yadav (Yashu) — Developer Profile Banner" width="100%">
 
 <br/><br/>
 
@@ -17,10 +17,11 @@
 
 ### `// 01. SYSTEM_OVERVIEW`
 
-Hi there! I'm **Chanda kumar Yadav**, a **B.Tech (Information Technology)** student specializing in **Backend Engineering** with **Spring Boot** and passionate about algorithmic problem solving on **LeetCode**.
+Hi there! I'm **Chandan Yadav** (also known as **Yashu**), a **B.Tech (Information Technology)** student specializing in **Backend Engineering** with **Spring Boot** and passionate about algorithmic problem solving on **LeetCode**.
 
 ```bash
 chandann118@terminal:~$ neofetch --profile
+  NAME      : Chandan Yadav (Yashu)
   OS        : Linux / JVM Environment
   HOST      : Chandann118
   KERNEL    : Spring Boot Framework

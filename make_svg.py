@@ -98,7 +98,7 @@ def create_svg(theme='dark'):
     glow_left_op = '0.08' if is_dark else '0.08'
     glow_right_op = '0.05' if is_dark else '0.08'
 
-    svg = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 610" width="1180" height="610" role="img" aria-label="Chanda kumar Yadav - Developer Profile Banner">
+    svg = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 610" width="1180" height="610" role="img" aria-label="Chandan Yadav (Yashu) - Developer Profile Banner">
   <defs>
     <!-- Gradients -->
     <linearGradient id="bg-grad-{theme}" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -196,7 +196,7 @@ def create_svg(theme='dark'):
 
       <!-- Center Title Tag -->
       <text x="590" y="39" class="mono" font-size="11" font-weight="600" text-anchor="middle" fill="{text_muted}" letter-spacing="1.5px">
-        CHANDA KUMAR YADAV // DEVELOPER IDENTITY MATRIX
+        CHANDAN YADAV (YASHU) // DEVELOPER IDENTITY MATRIX
       </text>
 
       <!-- Right Telemetry Badges -->
@@ -275,9 +275,9 @@ def create_svg(theme='dark'):
           <tspan fill="{accent_cyan}">chandann118@dev</tspan>:~$ whoami
         </text>
 
-        <!-- Large Name -->
+        <!-- Large Name & Nickname -->
         <text x="0" y="43" class="sans" font-size="20" font-weight="800" fill="{text_primary}" letter-spacing="-0.4px">
-          Chanda kumar Yadav
+          Chandan Yadav <tspan font-size="13" font-weight="600" fill="{accent_cyan}">[Yashu]</tspan>
         </text>
 
         <!-- Dynamic Rotating Role (SMIL) -->
@@ -333,7 +333,8 @@ def create_svg(theme='dark'):
         <!-- Row 1: NAME -->
         <rect x="0" y="2" width="660" height="20" rx="4" fill="{row_highlight}" fill-opacity="{row_highlight_op}"/>
         <text x="10" y="16" class="mono" font-size="10" font-weight="700" fill="{accent_cyan}">&gt; IDENTIFIER  :</text>
-        <text x="145" y="16" class="mono" font-size="11" font-weight="700" fill="{text_primary}">Chanda kumar Yadav</text>
+        <text x="145" y="16" class="mono" font-size="11" font-weight="700" fill="{text_primary}">Chandan Yadav</text>
+        <text x="250" y="16" class="mono" font-size="10" font-weight="600" fill="{accent_cyan}">[aka: Yashu]</text>
         <text x="540" y="16" class="mono" font-size="9" fill="{text_muted}">[VERIFIED PROFILE]</text>
 
         <!-- Row 2: HEADLINE -->
