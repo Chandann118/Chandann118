@@ -18,7 +18,7 @@ def create_svg(theme='dark'):
         
         card_bg = '#080808'
         card_opacity = '0.94'
-        card_border_start = '#10B981'
+        card_border_start = '#4ADE80'
         card_border_mid = '#27272A'
         card_border_end = '#18181B'
         
@@ -29,16 +29,16 @@ def create_svg(theme='dark'):
         text_secondary = '#D4D4D8'
         text_muted = '#71717A'
         
-        accent_cyan = '#10B981'
+        accent_cyan = '#4ADE80'
         accent_indigo = '#E4E4E7'
-        accent_emerald = '#10B981'
+        accent_emerald = '#4ADE80'
         accent_amber = '#F59E0B'
         
         ascii_color_1 = '#FFFFFF'
         ascii_color_2 = '#E4E4E7'
-        ascii_color_3 = '#10B981'
+        ascii_color_3 = '#4ADE80'
         
-        scanline_color = '#10B981'
+        scanline_color = '#4ADE80'
         row_highlight = '#141414'
         row_highlight_op = '0.60'
         stat_card_bg = '#000000'
@@ -211,7 +211,7 @@ def create_svg(theme='dark'):
 
         <!-- Degree Badge -->
         <rect x="94" y="0" width="88" height="24" rx="6" fill="{tag_bg}" stroke="{tag_border}" stroke-width="1"/>
-        <text x="138" y="16" class="mono" font-size="9.5" font-weight="600" text-anchor="middle" fill="{accent_cyan}">B.TECH CS</text>
+        <text x="138" y="16" class="mono" font-size="9.5" font-weight="600" text-anchor="middle" fill="{accent_cyan}">B.TECH IT</text>
 
         <!-- Framework Badge -->
         <rect x="190" y="0" width="88" height="24" rx="6" fill="{tag_bg}" stroke="{tag_border}" stroke-width="1"/>
@@ -284,7 +284,7 @@ def create_svg(theme='dark'):
         <g transform="translate(0, 65)">
           <text class="mono" font-size="12" font-weight="600">
             <tspan fill="{accent_cyan}" opacity="1">
-              Student · B.Tech Undergrad
+              Student · B.Tech IT
               <animate attributeName="opacity" values="1;1;0;0;0;0;1" dur="9s" repeatCount="indefinite"/>
             </tspan>
             <tspan x="0" y="0" fill="{accent_emerald}" opacity="0">
@@ -338,7 +338,7 @@ def create_svg(theme='dark'):
 
         <!-- Row 2: HEADLINE -->
         <text x="10" y="37" class="mono" font-size="10" font-weight="700" fill="{accent_cyan}">&gt; HEADLINE    :</text>
-        <text x="145" y="37" class="mono" font-size="11" font-weight="600" fill="{text_secondary}">Student // B.Tech Undergrad</text>
+        <text x="145" y="37" class="mono" font-size="11" font-weight="600" fill="{text_secondary}">Student // B.Tech IT</text>
         <text x="540" y="37" class="mono" font-size="9" fill="{accent_indigo}">[ACADEMICS]</text>
 
         <!-- Row 3: BACKEND -->
@@ -357,8 +357,8 @@ def create_svg(theme='dark'):
         <!-- Row 5: EDUCATION -->
         <rect x="0" y="86" width="660" height="20" rx="4" fill="{row_highlight}" fill-opacity="{row_highlight_op}"/>
         <text x="10" y="100" class="mono" font-size="10" font-weight="700" fill="{accent_cyan}">&gt; EDUCATION   :</text>
-        <text x="145" y="100" class="mono" font-size="11" font-weight="600" fill="{text_primary}">B.Tech</text>
-        <text x="205" y="100" class="mono" font-size="10.5" fill="{text_secondary}">· Bachelor of Technology</text>
+        <text x="145" y="100" class="mono" font-size="11" font-weight="600" fill="{text_primary}">B.Tech (IT)</text>
+        <text x="235" y="100" class="mono" font-size="10.5" fill="{text_secondary}">· Information Technology</text>
         <text x="540" y="100" class="mono" font-size="9" fill="{accent_cyan}">[UNDERGRAD]</text>
 
         <!-- Row 6: GITHUB -->
@@ -437,7 +437,7 @@ def create_svg(theme='dark'):
             <!-- Pill 9: Engineering -->
             <rect x="480" y="0" width="180" height="26" rx="6" fill="{tag_bg}" stroke="{tag_border}" stroke-width="1"/>
             <circle cx="494" cy="13" r="3" fill="{accent_cyan}"/>
-            <text x="505" y="16.5" class="mono" font-size="10" font-weight="600" fill="{text_secondary}">Computer Science B.Tech</text>
+            <text x="505" y="16.5" class="mono" font-size="10" font-weight="600" fill="{text_secondary}">Information Tech B.Tech</text>
           </g>
         </g>
       </g>
@@ -466,8 +466,8 @@ def create_svg(theme='dark'):
         <g transform="translate(448, 0)">
           <rect x="0" y="0" width="212" height="66" rx="8" fill="{stat_card_bg}" stroke="{stat_card_border}" stroke-width="1"/>
           <text x="14" y="19" class="mono" font-size="9" font-weight="700" fill="{accent_cyan}" letter-spacing="0.5px">ACADEMIC STATUS</text>
-          <text x="14" y="39" class="sans" font-size="15" font-weight="700" fill="{text_primary}">B.Tech Student</text>
-          <text x="14" y="54" class="mono" font-size="9.5" fill="{text_muted}">Bachelor of Technology</text>
+          <text x="14" y="39" class="sans" font-size="15" font-weight="700" fill="{text_primary}">B.Tech (IT)</text>
+          <text x="14" y="54" class="mono" font-size="9.5" fill="{text_muted}">Information Technology</text>
         </g>
       </g>
 
@@ -479,34 +479,41 @@ def create_svg(theme='dark'):
           // ACTIVE CHANNELS &amp; REPOSITORIES
         </text>
 
-        <!-- 4 Badges in a Row -->
+        <!-- 5 Badges in a Row -->
         <g transform="translate(0, 22)">
           <!-- GitHub Link Pill -->
           <g transform="translate(0, 0)">
-            <rect x="0" y="0" width="155" height="28" rx="6" fill="{tag_bg}" stroke="{tag_border}" stroke-width="1"/>
-            <text x="12" y="18" class="mono" font-size="10" font-weight="700" fill="{accent_cyan}">GitHub</text>
-            <text x="58" y="18" class="mono" font-size="9.5" fill="{text_secondary}">Chandann118</text>
+            <rect x="0" y="0" width="126" height="28" rx="6" fill="{tag_bg}" stroke="{tag_border}" stroke-width="1"/>
+            <text x="10" y="18" class="mono" font-size="9.5" font-weight="700" fill="{accent_cyan}">GitHub</text>
+            <text x="54" y="18" class="mono" font-size="9" fill="{text_secondary}">Chandann118</text>
           </g>
 
           <!-- LinkedIn Link Pill -->
-          <g transform="translate(165, 0)">
-            <rect x="0" y="0" width="160" height="28" rx="6" fill="{tag_bg}" stroke="{tag_border}" stroke-width="1"/>
-            <text x="12" y="18" class="mono" font-size="10" font-weight="700" fill="{accent_indigo}">LinkedIn</text>
-            <text x="68" y="18" class="mono" font-size="9.5" fill="{text_secondary}">in/chandann118</text>
+          <g transform="translate(133, 0)">
+            <rect x="0" y="0" width="126" height="28" rx="6" fill="{tag_bg}" stroke="{tag_border}" stroke-width="1"/>
+            <text x="10" y="18" class="mono" font-size="9.5" font-weight="700" fill="{accent_indigo}">LinkedIn</text>
+            <text x="60" y="18" class="mono" font-size="9" fill="{text_secondary}">chandann118</text>
           </g>
 
           <!-- LeetCode Link Pill -->
-          <g transform="translate(335, 0)">
-            <rect x="0" y="0" width="160" height="28" rx="6" fill="{tag_bg}" stroke="{tag_border}" stroke-width="1"/>
-            <text x="12" y="18" class="mono" font-size="10" font-weight="700" fill="{accent_amber}">LeetCode</text>
-            <text x="72" y="18" class="mono" font-size="9.5" fill="{text_secondary}">Chandann118</text>
+          <g transform="translate(266, 0)">
+            <rect x="0" y="0" width="126" height="28" rx="6" fill="{tag_bg}" stroke="{tag_border}" stroke-width="1"/>
+            <text x="10" y="18" class="mono" font-size="9.5" font-weight="700" fill="{accent_amber}">LeetCode</text>
+            <text x="62" y="18" class="mono" font-size="9" fill="{text_secondary}">Chandann118</text>
+          </g>
+
+          <!-- Instagram Link Pill -->
+          <g transform="translate(399, 0)">
+            <rect x="0" y="0" width="128" height="28" rx="6" fill="{tag_bg}" stroke="{tag_border}" stroke-width="1"/>
+            <text x="10" y="18" class="mono" font-size="9.5" font-weight="700" fill="#E1306C">Instagram</text>
+            <text x="68" y="18" class="mono" font-size="9" fill="{text_secondary}">chandann118</text>
           </g>
 
           <!-- Email Link Pill -->
-          <g transform="translate(505, 0)">
-            <rect x="0" y="0" width="155" height="28" rx="6" fill="{tag_bg}" stroke="{tag_border}" stroke-width="1"/>
-            <text x="12" y="18" class="mono" font-size="10" font-weight="700" fill="{accent_emerald}">Email</text>
-            <text x="50" y="18" class="mono" font-size="9" fill="{text_secondary}">chandnn188</text>
+          <g transform="translate(534, 0)">
+            <rect x="0" y="0" width="126" height="28" rx="6" fill="{tag_bg}" stroke="{tag_border}" stroke-width="1"/>
+            <text x="10" y="18" class="mono" font-size="9.5" font-weight="700" fill="{accent_emerald}">Email</text>
+            <text x="46" y="18" class="mono" font-size="8.8" fill="{text_secondary}">chandnn188</text>
           </g>
         </g>
 
