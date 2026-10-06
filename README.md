@@ -1,5 +1,9 @@
 <div align="center">
 
+[![Profile](https://img.shields.io/badge/👉%20VIEW%20PROFILE-github.com%2FChandann118-1F6FEB?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Chandann118)
+
+<br/><br/>
+
 <img src="./light.svg" alt="Chandan Yadav (Yashu) — Developer Profile Banner" width="100%">
 
 <br/><br/>
